@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E787DAD9-CF05-5E3B-B360-2D9ABE277E00" name="Expedition">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 15:42:02 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1494056F-C480-2657-2405-D4D86907F927">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 15:42:29 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="exp_title" id="3BB1905C-FD38-066E-059B-68938B15281E">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 17:15:09 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lead_by" id="8153281F-0CBB-FBA7-8393-03C695875BA1">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 17:15:53 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="B7E984F6-FC5F-43DF-1499-6E18EFE0949F">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 17:15:23 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longtitude" id="CA9A1372-4F21-DBC2-C1E7-7E3C08AF1873">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 17:15:38 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="B63864FE-C418-E0C1-DD18-8685DF17C7BA">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 17:16:20 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3299716D-743C-4585-FA6C-E18CB4F068DA" name="Expedition PK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 15:42:33 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1494056F-C480-2657-2405-D4D86907F927</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

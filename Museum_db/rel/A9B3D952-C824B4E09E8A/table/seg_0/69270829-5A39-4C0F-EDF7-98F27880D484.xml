@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69270829-5A39-4C0F-EDF7-98F27880D484" name="ticket">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>7B013917-057B-B436-11E7-B5E652509A8C</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6698B767-9E58-2C87-68C6-36D8F5C0D63B">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>725AC34E-CA0F-2E06-0B26-BBA4EBA4D77A</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="guest" id="BB1F628E-48BC-0CD2-5FA3-08CFB0BA6DDF">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>C0CAF75F-8F73-B11F-7A69-D88CD4C28C2E</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ticket_date" id="AD11F7F3-20CA-39E8-5053-9E3CE6428CD6">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>FCDF3602-B67C-36B5-578A-7DF1AEA58DA6</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ticket_code" id="A464E966-A570-8B23-35B3-C5F857A5BBF1">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>18F7F801-516E-AFA0-FBFD-CBA5BE5CC18E</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Exhibition_id" id="1127D631-C5A9-E27E-3325-F3214FCC87FC">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>82B046ED-95CC-8B21-B38C-2537FC7216F8</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0746F7C2-BF8F-596F-15A3-0DA7367CF27A" referredColumn="391C5850-7919-CD81-1B97-32587BE58F23"/>
+</associations>
+</Column>
+<Column name="ticket_price" id="7EBE4516-64E4-5727-F1AD-F67D4BD0DC2E">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>E5C77F5B-3256-C71F-D4A1-9B0800265D36</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C31A333A-1472-B0E2-9CC9-36372DEBD092" name="ticket_PK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>7F45F3C6-D7CF-C434-9687-7C00F85D49BD</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6698B767-9E58-2C87-68C6-36D8F5C0D63B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6124152D-5EE8-F544-1A38-03E054F83A11" name="ticket_Exhibition_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>4DD64DEA-CD97-2B6E-0B77-54E206402D4E</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1127D631-C5A9-E27E-3325-F3214FCC87FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

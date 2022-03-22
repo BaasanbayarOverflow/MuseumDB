@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2FF3848-B12C-3071-CD11-A0CC21D27F21" name="City">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>437A0CDE-1656-B18D-FEF6-D063D1B0E783</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="85E93730-9567-C5B4-25C5-FDB32DEC9A1F">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>320F7205-8E59-1A4B-F585-B270F2C2D4BF</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city_name" id="40537E6A-2F11-B0DD-80B4-F3CD02A204B3">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>2BA8C028-B8F6-82B2-6AE8-2689D1BB35A6</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city_code" id="6B3F4301-7ACA-9F04-F092-EBA0C0988C88">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>75696D51-AE93-F98E-F86A-F6ADA27ACF09</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country_id" id="309C4F4B-3217-2655-CB4C-D664DD2D77E2">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>C83DC8AD-7E88-27AE-6B98-35C63764DCAB</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E067DDA-AEB9-4E93-60F3-B566F8DF693A" referredColumn="631B986E-99AD-65E4-1C91-7A9C059B3F6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10BE40CC-1F77-29A4-FD66-2ED86444795C" name="City_PK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>0953DBE4-58A2-1552-6902-602BC0C3F8B6</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85E93730-9567-C5B4-25C5-FDB32DEC9A1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D326039B-5315-131E-0CBC-CD27B2BBC44B" name="City_Country_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>12CB5650-2C02-B53E-45B5-A7BC12EAFB9D</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="309C4F4B-3217-2655-CB4C-D664DD2D77E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

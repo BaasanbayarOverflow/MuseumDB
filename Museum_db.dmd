@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Museum_db" id="3BE8C608-B0C5-7497-745A-298AE8E94EF9" version="3.5">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 12:44:59 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3BE8C608-B0C5-7497-745A-298AE8E94EF9</designId>
+</OSDM_Design>

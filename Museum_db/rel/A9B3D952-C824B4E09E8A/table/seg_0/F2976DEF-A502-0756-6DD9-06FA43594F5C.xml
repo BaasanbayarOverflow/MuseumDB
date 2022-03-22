@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2976DEF-A502-0756-6DD9-06FA43594F5C" name="Artist">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>82DB41A5-F361-B764-512E-EAB24BCA6368</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="60C7B288-5797-2AB3-9851-7EE9FC279077">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>8937D766-1BB7-FEE4-BB9D-C7247295482C</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="artist_first_name" id="82BE25C8-B6E8-0146-49B1-FF2D1049BB40">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>8EAEC9A1-7BD0-BCA1-2822-F52367622A94</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="artist_last_name" id="B6ECA1B8-8264-05F5-177A-D45A69135F24">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>E9FACB5E-63F2-5294-31A2-7414AEB6685E</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="artist_gender" id="430B74F3-0E0E-2E6C-ED5D-34D878467AC8">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>2D1916DE-8C48-14F0-0317-D2DE55B74DBB</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="artist_birth_date" id="219CAEF6-EF23-0938-B216-8DE3F604435F">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>D1CA8F50-F6AE-DFA0-1A48-B2BE556D28B0</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="artist_birth_place" id="23236277-4110-6005-1F03-FB4A3DC4214C">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>3FA7171A-DC8F-CC1A-D91E-6297CC3140C9</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="artist_nationality" id="E446D6A1-A386-B5A9-4EC6-78F372CECE45">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>64070B60-5D2A-50E3-9225-22AAC78919CB</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="artist_wiki_url" id="0D2F56BD-998E-5C72-0E51-6ED833854049">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>75A023B6-27E1-8636-0B98-628A3B434506</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="artist_ulan_url" id="8D8596CD-7B84-591B-C3F9-3AE64372B05F">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>0BD40D1F-B990-8CF6-4018-D955A77C4221</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="artist_bio" id="C22796A3-55AA-02F5-4C8D-20E1BD28ACC2">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>69812511-731C-ED48-5C87-0D8B81A09196</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contacts_id" id="00D98759-43FD-B9D0-EDC2-6A60D8EA1FE0">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>8C4ECBF6-C56A-74A3-3021-3F562C0EF2ED</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52597CCF-81A9-8475-E170-1D025F2EB1F0" referredColumn="3E756F76-D144-6C6E-6C27-F4A61F2E87EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7DDA005-ED53-5982-8E8B-81E26FA941A3" name="Artist_PK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>1F723179-1605-36CB-E76E-7E223C724088</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C7B288-5797-2AB3-9851-7EE9FC279077"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D772FC23-F017-C280-86DA-59F802ADB2F9" name="Artist__IDX">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B9ACA3DB-52B2-971A-E39B-CC6D25B43480</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="00D98759-43FD-B9D0-EDC2-6A60D8EA1FE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D610477-732E-55F6-F5EC-5D42B7F183D5" name="Artist_Contacts_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>B9ACA3DB-52B2-971A-E39B-CC6D25B43480</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00D98759-43FD-B9D0-EDC2-6A60D8EA1FE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

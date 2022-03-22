@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="735C04AF-5A72-6C81-341D-02865DA544ED" mainViewID="A147B7F7-A4B5-1797-94A9-9AA20C713AF7">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 12:44:59 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

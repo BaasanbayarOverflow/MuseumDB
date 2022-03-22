@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4EA0C905-B6CD-3C80-F19A-596E66B1ACBA" containerWithKeyObject="F325192B-936A-D5D6-9C7D-989369B1AF88" localFKIndex="937A5B29-C135-03D6-8EC0-7173595C9F04" name="Paint_Artist_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>E0EFED28-ED02-E6EF-1642-C5B131A6DCA9</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<referredTableLongName>Artist</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>F2976DEF-A502-0756-6DD9-06FA43594F5C</referredTableID>
+<keyObject>F7DDA005-ED53-5982-8E8B-81E26FA941A3</keyObject>
+<referredKeyID>F7DDA005-ED53-5982-8E8B-81E26FA941A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

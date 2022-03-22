@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="2412551F-D90F-6B11-E88E-084A2D95BA62">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 12:44:59 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

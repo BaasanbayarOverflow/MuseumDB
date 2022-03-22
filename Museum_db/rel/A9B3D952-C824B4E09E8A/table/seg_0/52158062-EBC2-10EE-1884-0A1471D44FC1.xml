@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52158062-EBC2-10EE-1884-0A1471D44FC1" name="MSM_artifact_publicaiton">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Artifact_id" id="2B5E6356-494D-5B44-7938-B4E28ECC4B59">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8606B652-9BCA-EEC3-DCFD-210686861537" referredColumn="8809B963-42CF-8E5F-1885-7362460BB9B4"/>
+</associations>
+</Column>
+<Column name="Publications_id" id="39824E75-CA69-6C09-A518-D9F35C10BBAB">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58E30DE8-1AB6-E46D-F8F7-76B65E1927E1" referredColumn="392D7B8D-99DA-D9AC-CAC5-85903336B541"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7503D9AC-34C1-0785-BD56-FA66138296C3" name="MSM_artifact_publicaiton_PK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B5E6356-494D-5B44-7938-B4E28ECC4B59"/>
+<colUsage columnID="39824E75-CA69-6C09-A518-D9F35C10BBAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2837C68-CF4A-432F-3789-87DE7434A314" name="MSM_artifact_publicaiton_Artifact_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>CA400E4C-43F7-9531-04A7-48F2CB4B5DC0</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B5E6356-494D-5B44-7938-B4E28ECC4B59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75EBB087-6F4D-4531-6522-E6978BEDEBD9" name="MSM_artifact_publicaiton_Publications_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>CA400E4C-43F7-9531-04A7-48F2CB4B5DC0</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39824E75-CA69-6C09-A518-D9F35C10BBAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

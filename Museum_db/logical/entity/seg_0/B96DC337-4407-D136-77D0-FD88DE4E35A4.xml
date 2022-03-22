@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B96DC337-4407-D136-77D0-FD88DE4E35A4" name="Artist_role">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 13:30:49 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6E1BF49B-39A7-B3EE-EC5D-A76169EA7391">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 14:25:36 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="87B3C8C3-9FB7-91CD-DD0E-E571E8567539">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 14:25:48 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="82C23C16-108B-4668-C82B-16C7CCA2BBB2">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 15:35:50 UTC</createdTime>
+<generatorID>CD240B3D-E151-5245-FE9B-6348B2D73A5F</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<referedAttribute>8937D766-1BB7-FEE4-BB9D-C7247295482C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6FDCFB6E-2FE2-ED71-6DF1-28094DDE971A" name="Artist_role PK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 14:25:39 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E1BF49B-39A7-B3EE-EC5D-A76169EA7391</attributeRef>
+<attributeRef>82C23C16-108B-4668-C82B-16C7CCA2BBB2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

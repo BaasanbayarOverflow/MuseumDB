@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4062536E-AF99-8044-67E6-CF454F452571" name="MSM_museum_expedition">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Museum_id" id="E7FAA432-F495-B62E-9567-685219618811">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78B067E6-E052-96DA-E3BC-4E12285D7F56" referredColumn="34D039CF-E058-5ADF-7FBA-97E9C767C006"/>
+</associations>
+</Column>
+<Column name="Expedition_id" id="A38F28A0-1F02-9936-7449-7D78DF2992B3">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAB827C9-DFA8-B3A0-3C5A-68CEC9FA5DBE" referredColumn="56F5EAEE-B810-0813-C456-BCE47E0A679B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E86BD209-E4A7-97F8-1D9A-EEA486011746" name="MSM_museum_expedition_PK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7FAA432-F495-B62E-9567-685219618811"/>
+<colUsage columnID="A38F28A0-1F02-9936-7449-7D78DF2992B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="977FEC79-00FF-F106-8872-C93AA384CD35" name="MSM_museum_expedition_Museum_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>D5B4C142-2C34-2A59-362D-D850B62BAC7A</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7FAA432-F495-B62E-9567-685219618811"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAC3C74A-FCF6-6B15-A0B5-E7B30ABA0845" name="MSM_museum_expedition_Expedition_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 20:32:03 UTC</createdTime>
+<generatorID>D5B4C142-2C34-2A59-362D-D850B62BAC7A</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A38F28A0-1F02-9936-7449-7D78DF2992B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

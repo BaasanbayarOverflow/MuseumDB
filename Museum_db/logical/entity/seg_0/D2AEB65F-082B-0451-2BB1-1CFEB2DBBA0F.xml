@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2AEB65F-082B-0451-2BB1-1CFEB2DBBA0F" name="Museum">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 12:46:13 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="4C0E221C-9C5B-9095-61F1-6E93C464E204">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 12:46:22 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="common_name" id="E5AF0237-5ABC-7F8C-D95A-B1EF99826654">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 12:46:22 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="legal_name" id="AF14E282-7235-9832-5EF5-FDD2E19D9304">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 12:46:22 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="management" id="192892A7-8364-73B8-3044-D042D8362ECF">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 15:25:03 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="administrative_address" id="524756C9-C74E-0DDF-B72F-31829AE7F099">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 12:46:23 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="physical_address" id="DC9DBB97-B933-E48C-BAD4-8946503C2B4E">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 14:11:48 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="DBF6AF70-DA39-D9FC-0702-2EDE98C4FE3B">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 14:48:33 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="A8039F75-E77A-1027-91FE-20FE49A89EAB">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 14:14:17 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="F254D444-39DF-DD42-1972-5D8CE6B6C33F">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 14:28:42 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="58CADF01-48E5-B352-D1EC-2EA478B98135">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 15:30:27 UTC</createdTime>
+<generatorID>5CFC8AAB-6024-2900-7C3C-6BE3CB89EB4A</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<referedAttribute>320F7205-8E59-1A4B-F585-B270F2C2D4BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="092935C9-9A5E-EDAD-E931-FCE0D5047368">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 15:34:18 UTC</createdTime>
+<generatorID>63A32369-69D6-7B91-73A9-7D40D201918A</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<referedAttribute>6024AE42-B487-D0BF-CBDB-903A63559511</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="897A1A5B-27E0-A13E-733B-D81BBE404F2A">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 15:38:33 UTC</createdTime>
+<generatorID>6B4A64F8-2738-6AB1-F11F-6C10D1265DAB</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<referedAttribute>6F4D024D-CBA4-2F06-D803-F4CA9C1D45C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="A7EA4E41-6F12-95A4-965A-2AA54CCCE344">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 16:34:29 UTC</createdTime>
+<generatorID>868F5E0C-2E06-74CD-BA94-77F5370AE761</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<referedAttribute>2D2E8F8A-B22D-6C91-6C2E-640336A8A78D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A730F8C-ADAF-8056-719C-CFD67C958CFF" name="Museum PK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 12:46:25 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C0E221C-9C5B-9095-61F1-6E93C464E204</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

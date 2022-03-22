@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="77B48A18-9D9A-08DA-6972-E4EF8EDFCA46">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-22 12:44:59 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
