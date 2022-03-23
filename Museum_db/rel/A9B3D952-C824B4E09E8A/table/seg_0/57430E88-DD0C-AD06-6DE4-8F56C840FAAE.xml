@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57430E88-DD0C-AD06-6DE4-8F56C840FAAE" name="Merchandise">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>B1CF59A0-BD25-9A19-C0B7-7C914CC74519</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="265BCC87-A55F-A5C3-7091-5D485F2AE530">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>15837DDE-F10B-FEC8-8451-A0C71C3936A7</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merch_title" id="0682AC3F-DA54-D0CE-0206-5CFA0532D15C">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>DE39E5B3-AF8B-1C46-5BBB-664987B96C23</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merch_description" id="7E360870-B335-970E-98FA-2B758B154A1A">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>17D8AFAE-7134-0F85-BAAE-3AF33892BC45</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merch_unit_price" id="1297F9E2-39FF-5322-4A5C-4C93791186F4">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>A258476A-DCB6-D2C5-3D6F-6575E450CE1D</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Shop_id" id="80603298-0AB3-8B4C-BFAF-23FFE43AFD3A">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>B0CEB5D6-814F-8EC7-51B4-4321966ED0CC</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEE945D5-6CF6-075C-56A5-1A19B058CD53" referredColumn="BDF60FE0-80DE-F848-A88E-FE937591BAEB"/>
+</associations>
+</Column>
+<Column name="Category_id" id="4B44B018-CF29-6FBB-62E2-2781682EAC09">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>27A4994E-5284-A1E9-C03A-830E061A7033</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B49395C-87C9-C66F-F19F-A723D5395573" referredColumn="AC109183-3C42-31FF-B0E4-BBCB9705165C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E3FB602-46C7-B057-162D-41D0E878D31C" name="Merchandise_PK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>4A6BAEBB-E531-2ABC-11BC-7D72183F4B83</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="265BCC87-A55F-A5C3-7091-5D485F2AE530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F406A8B-3E03-F78A-6318-720E4A612628" name="Merchandise_Shop_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>A0A87C3A-47B6-E99F-CF23-2AAA20406F34</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80603298-0AB3-8B4C-BFAF-23FFE43AFD3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF2C1C03-2E16-4C2E-BAD8-601FC23C1CCE" name="Merchandise_Category_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>67A57245-80C6-7B84-053A-6C4DE591749A</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B44B018-CF29-6FBB-62E2-2781682EAC09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

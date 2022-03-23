@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1600F9F1-350A-0D71-4A8D-E31A4A7E4378" name="MSM_researcher_contact">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Researcher_id" id="4F053A4B-29B2-2693-42D7-1189F0D241C0">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A3B53C1-7ACE-8355-E9FA-9598AB1DCDA8" referredColumn="66B3475D-A053-884E-5AC0-85B2B3E41044"/>
+</associations>
+</Column>
+<Column name="Contacts_id" id="3498FBAA-4272-7433-305B-62EC1C9D6224">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9526CC90-D903-6E9F-26D6-8203EDE25E2E" referredColumn="38C9DD97-2361-34FF-3176-0BA2DAA7DD4F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6657924-6B2F-29A0-49B0-1D8C73878B62" name="MSM_researcher_contact_PK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F053A4B-29B2-2693-42D7-1189F0D241C0"/>
+<colUsage columnID="3498FBAA-4272-7433-305B-62EC1C9D6224"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FB6FA12-0F72-F138-6D02-42E139327BB3" name="MSM_researcher_contact_Researcher_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>8C24568C-010E-B1AC-8307-39764E2E98B0</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F053A4B-29B2-2693-42D7-1189F0D241C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D2CB58D-9DF4-6644-7643-8C7A3DC203D6" name="MSM_researcher_contact_Contacts_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>8C24568C-010E-B1AC-8307-39764E2E98B0</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3498FBAA-4272-7433-305B-62EC1C9D6224"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70C0107E-C2FD-E4B4-2034-613336C48DAF" name="Publications">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAA2DB03-2909-F6E0-A31A-7D9C221FA92E" name="Citations">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 15:41:34 UTC</createdTime>
+<createdTime>2022-03-23 02:23:06 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="7FF4EAA2-7E1C-B8C4-2FE3-C958C2A4C21D">
+<Attribute name="id" id="D061F9E4-AB1E-987B-3FE1-F39A839C2CC0">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 15:41:41 UTC</createdTime>
+<createdTime>2022-03-23 02:23:11 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="document_title" id="5C9A3F94-55F5-838A-6651-3074F336ABEA">
+<Attribute name="citiation_title" id="69686293-07D8-1460-2839-3220A29D2ADD">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 16:22:26 UTC</createdTime>
+<createdTime>2022-03-23 02:23:12 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -37,12 +37,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150</dataTypeSize>
-<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="document_affiliation" id="A462B158-1BCA-5CDF-6DE0-B69BF07C6FED">
+<Attribute name="citation_index" id="AC16A549-7510-24DE-F161-FAA884A254A1">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 16:22:49 UTC</createdTime>
+<createdTime>2022-03-23 02:26:05 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -50,56 +50,43 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="document_subject" id="16014EBE-72D4-5074-2562-99FAFDA15794">
+<Attribute name="citation_date" id="BFA67BF7-73DC-F03C-A8F5-F96A77DD00B2">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-23 02:32:30 UTC</createdTime>
+<createdTime>2022-03-23 02:26:34 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="description" id="0EFD257E-A925-5829-EFF0-FCC64D720A8B">
-<createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 16:23:35 UTC</createdTime>
-<ownerDesignName>Museum_db</ownerDesignName>
-<engineerTo>
-<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="published_at" id="6115AB5E-0A58-6B69-26F3-250DC10AF4A5">
+<Attribute name="citation_type" id="E0364E25-1936-9934-A228-68E8983FE299">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 16:23:06 UTC</createdTime>
+<createdTime>2022-03-23 02:26:55 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="38D16092-9152-BD5F-2C71-4688BAD4B9CA">
+<Attribute name="id1" id="C7E95072-A8F3-6B4F-9BC1-FF898832620F">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-23 02:29:49 UTC</createdTime>
-<generatorID>1FACAB17-1066-C908-4F26-F45A866FC286</generatorID>
+<createdTime>2022-03-23 02:24:12 UTC</createdTime>
+<generatorID>A9BEF6D9-13EF-F628-1613-D636552551CD</generatorID>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
 </engineerTo>
-<referedAttribute>F0E43F7A-8EBF-6AC6-66CE-2E7EBB4E3773</referedAttribute>
+<referedAttribute>3907E8C6-9F5F-9B9B-7B0F-6FD2970CE19D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -107,9 +94,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EF6D10D6-4407-A3D7-E244-5612BDAC0A51" name="Publications PK">
+<identifier id="C5102EBF-C7A3-2001-8431-9046704A43E5" name="Citations PK">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 15:41:44 UTC</createdTime>
+<createdTime>2022-03-23 02:23:21 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -117,7 +104,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7FF4EAA2-7E1C-B8C4-2FE3-C958C2A4C21D</attributeRef>
+<attributeRef>D061F9E4-AB1E-987B-3FE1-F39A839C2CC0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

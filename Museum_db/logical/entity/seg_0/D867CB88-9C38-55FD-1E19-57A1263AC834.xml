@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70C0107E-C2FD-E4B4-2034-613336C48DAF" name="Publications">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D867CB88-9C38-55FD-1E19-57A1263AC834" name="Report">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 15:41:34 UTC</createdTime>
+<createdTime>2022-03-23 02:39:50 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="7FF4EAA2-7E1C-B8C4-2FE3-C958C2A4C21D">
+<Attribute name="id" id="1DC6F2B4-BCC6-0652-E8C8-36C991D406CA">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 15:41:41 UTC</createdTime>
+<createdTime>2022-03-23 02:40:05 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="document_title" id="5C9A3F94-55F5-838A-6651-3074F336ABEA">
+<Attribute name="report_code" id="BB916386-B540-A114-CECF-09664BCC81EE">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 16:22:26 UTC</createdTime>
+<createdTime>2022-03-23 02:40:19 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -37,12 +37,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150</dataTypeSize>
-<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="document_affiliation" id="A462B158-1BCA-5CDF-6DE0-B69BF07C6FED">
+<Attribute name="report_title" id="8D285E96-FA0D-DA2C-A073-5D91490AE762">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 16:22:49 UTC</createdTime>
+<createdTime>2022-03-23 02:40:19 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -50,12 +50,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="document_subject" id="16014EBE-72D4-5074-2562-99FAFDA15794">
+<Attribute name="report_type" id="8D125839-4506-4F41-006B-122F5B3C15C5">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-23 02:32:30 UTC</createdTime>
+<createdTime>2022-03-23 02:40:19 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -63,12 +63,25 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="description" id="0EFD257E-A925-5829-EFF0-FCC64D720A8B">
+<Attribute name="report_brief" id="3BCBAE27-34A4-4D61-039C-36A5378431A3">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 16:23:35 UTC</createdTime>
+<createdTime>2022-03-23 02:41:17 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="report_full" id="62CEB3DC-FCAC-8A4D-4F84-8E48F7C3DB38">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:41:17 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -79,9 +92,9 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="published_at" id="6115AB5E-0A58-6B69-26F3-250DC10AF4A5">
+<Attribute name="report_date" id="D3768DDA-20EF-CD6C-3281-D0E6756639F0">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 16:23:06 UTC</createdTime>
+<createdTime>2022-03-23 02:42:32 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -91,15 +104,15 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="38D16092-9152-BD5F-2C71-4688BAD4B9CA">
+<Attribute name="id1" id="4B0763D8-7256-47AB-92B2-86D906EBFDE4">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-23 02:29:49 UTC</createdTime>
-<generatorID>1FACAB17-1066-C908-4F26-F45A866FC286</generatorID>
+<createdTime>2022-03-23 02:42:56 UTC</createdTime>
+<generatorID>0C48706D-8CBD-3293-CC69-F2EED6B5464C</generatorID>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
 </engineerTo>
-<referedAttribute>F0E43F7A-8EBF-6AC6-66CE-2E7EBB4E3773</referedAttribute>
+<referedAttribute>123EF6A8-1ECC-E7CA-38C3-4B93E1B11FCD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -107,9 +120,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EF6D10D6-4407-A3D7-E244-5612BDAC0A51" name="Publications PK">
+<identifier id="CD164306-FAC4-8955-3942-5FCBDEBA8B62" name="Report PK">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 15:41:44 UTC</createdTime>
+<createdTime>2022-03-23 02:40:10 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -117,7 +130,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7FF4EAA2-7E1C-B8C4-2FE3-C958C2A4C21D</attributeRef>
+<attributeRef>1DC6F2B4-BCC6-0652-E8C8-36C991D406CA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

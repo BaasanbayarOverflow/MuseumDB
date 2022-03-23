@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="34D80DA0-78D8-ACA8-0377-19A37182B155" containerWithKeyObject="11F76324-D5E0-0BF0-51E7-8425AC6E5018" localFKIndex="26B302E8-B034-8AD2-5B9A-130AC8ACB83E" name="Researcher_Acedemic_institution_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>D621B2CD-CDB9-771E-4476-219EA9C3E7AA</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<referredTableLongName>Acedemic_institution</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6933E495-53F7-06F4-F30E-605CFCF69958</referredTableID>
+<keyObject>E474A158-7C42-A6BF-44BA-1CAA9C2B52EA</keyObject>
+<referredKeyID>E474A158-7C42-A6BF-44BA-1CAA9C2B52EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,257 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C5AD5DC-F5D4-0704-FF07-62DB2AF37FD2" name="Museum">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>D2AEB65F-082B-0451-2BB1-1CFEB2DBBA0F</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B859480A-B584-69F5-9C48-018F366A25D0">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>4C0E221C-9C5B-9095-61F1-6E93C464E204</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="common_name" id="AA6D0BB9-815C-218F-CE15-D0D8272A2760">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>E5AF0237-5ABC-7F8C-D95A-B1EF99826654</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="legal_name" id="B2C7D257-B642-2564-F22C-98FF57E74714">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>AF14E282-7235-9832-5EF5-FDD2E19D9304</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="management" id="A548AF00-7F60-FA9B-F623-E48752B56AB4">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>192892A7-8364-73B8-3044-D042D8362ECF</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="administrative_address" id="DBD0245E-F457-9127-2700-0D4CBC399541">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>524756C9-C74E-0DDF-B72F-31829AE7F099</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="physical_address" id="6778D721-2EE5-0FF0-8320-541598BE5627">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>DC9DBB97-B933-E48C-BAD4-8946503C2B4E</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="7A5280F5-E6C5-2BC4-CB27-7D8CA856A466">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>DBF6AF70-DA39-D9FC-0702-2EDE98C4FE3B</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="049ADFA4-18E4-9EEB-A1C1-C2017CBD2F21">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>A8039F75-E77A-1027-91FE-20FE49A89EAB</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="FEC7A97F-6922-E527-0308-17605DB4C762">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>F254D444-39DF-DD42-1972-5D8CE6B6C33F</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City_id" id="6C7A4486-EBE6-7D1B-A13B-7AC775849C30">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>58CADF01-48E5-B352-D1EC-2EA478B98135</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFEDC6DD-BE51-7C8E-CE9F-5D4DAE5B6F81" referredColumn="CCC76A8F-D872-2AA8-9326-F767438C9CC3"/>
+</associations>
+</Column>
+<Column name="Museum_category_id" id="F112DEFD-5EFC-CC9D-0633-96EF1D2D0842">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>092935C9-9A5E-EDAD-E931-FCE0D5047368</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D087816-0503-E03A-D1C2-D1C6610C63BF" referredColumn="4A3496EC-B252-AE6D-512B-33A209241D89"/>
+</associations>
+</Column>
+<Column name="Acedemic_institution_id" id="4E093DBA-6D56-05AC-0678-1695F2F4FC22">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>897A1A5B-27E0-A13E-733B-D81BBE404F2A</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A335F47E-06A9-A4E4-0EDB-F88A76AB2ECA" referredColumn="5BCDE6B3-5C07-087B-76D6-C915F10C0CE9"/>
+</associations>
+</Column>
+<Column name="Contacts_id" id="254518D8-9DBD-A937-9173-1A357FF1615D">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>A7EA4E41-6F12-95A4-965A-2AA54CCCE344</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6091C76C-259B-5D96-3587-B219692A93A4" referredColumn="38C9DD97-2361-34FF-3176-0BA2DAA7DD4F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B78FF01-2776-F1EA-7B2B-E54FE6042458" name="Museum_PK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>6A730F8C-ADAF-8056-719C-CFD67C958CFF</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B859480A-B584-69F5-9C48-018F366A25D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62BEC387-1AC8-8676-3461-CB418157EF8C" name="Museum__IDX">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>868F5E0C-2E06-74CD-BA94-77F5370AE761</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="254518D8-9DBD-A937-9173-1A357FF1615D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3302E9A8-D82A-5ED8-FFD4-338DF650858F" name="Museum__IDXv1">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>63A32369-69D6-7B91-73A9-7D40D201918A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F112DEFD-5EFC-CC9D-0633-96EF1D2D0842"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0746A693-6491-3CF7-821E-F34C0A2AFB86" name="Museum_Acedemic_institution_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>6B4A64F8-2738-6AB1-F11F-6C10D1265DAB</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E093DBA-6D56-05AC-0678-1695F2F4FC22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EC0E4DD-4D73-2EA2-0532-439C0FA5FC8E" name="Museum_Contacts_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>868F5E0C-2E06-74CD-BA94-77F5370AE761</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="254518D8-9DBD-A937-9173-1A357FF1615D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2418B50C-AB62-06FF-F18B-13B175DB602D" name="Museum_City_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>5CFC8AAB-6024-2900-7C3C-6BE3CB89EB4A</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C7A4486-EBE6-7D1B-A13B-7AC775849C30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85DDA7E0-D58F-43CE-F5D9-5571024A5391" name="Museum_Museum_category_FK">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:44:30 UTC</createdTime>
+<generatorID>63A32369-69D6-7B91-73A9-7D40D201918A</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F112DEFD-5EFC-CC9D-0633-96EF1D2D0842"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

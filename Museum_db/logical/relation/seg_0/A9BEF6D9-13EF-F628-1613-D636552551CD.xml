@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_43" directorySegmentName="seg_0" id="A9BEF6D9-13EF-F628-1613-D636552551CD">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:24:12 UTC</createdTime>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<sourcePk>82C5BD8C-5F1F-516A-804F-F472958E3766</sourcePk>
+<targetPk>C5102EBF-C7A3-2001-8431-9046704A43E5</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>688535E2-020E-6903-00EC-A1249E1EEA92</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EAA2DB03-2909-F6E0-A31A-7D9C221FA92E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

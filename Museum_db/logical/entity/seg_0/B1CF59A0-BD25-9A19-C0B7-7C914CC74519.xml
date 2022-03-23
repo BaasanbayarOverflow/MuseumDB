@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70C0107E-C2FD-E4B4-2034-613336C48DAF" name="Publications">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1CF59A0-BD25-9A19-C0B7-7C914CC74519" name="Merchandise">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 15:41:34 UTC</createdTime>
+<createdTime>2022-03-23 02:08:42 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="7FF4EAA2-7E1C-B8C4-2FE3-C958C2A4C21D">
+<Attribute name="id" id="15837DDE-F10B-FEC8-8451-A0C71C3936A7">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 15:41:41 UTC</createdTime>
+<createdTime>2022-03-23 02:08:54 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="document_title" id="5C9A3F94-55F5-838A-6651-3074F336ABEA">
+<Attribute name="merch_title" id="DE39E5B3-AF8B-1C46-5BBB-664987B96C23">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 16:22:26 UTC</createdTime>
+<createdTime>2022-03-23 02:08:54 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -37,38 +37,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150</dataTypeSize>
-<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="document_affiliation" id="A462B158-1BCA-5CDF-6DE0-B69BF07C6FED">
+<Attribute name="merch_description" id="17D8AFAE-7134-0F85-BAAE-3AF33892BC45">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 16:22:49 UTC</createdTime>
-<ownerDesignName>Museum_db</ownerDesignName>
-<engineerTo>
-<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="document_subject" id="16014EBE-72D4-5074-2562-99FAFDA15794">
-<createdBy>Athenda</createdBy>
-<createdTime>2022-03-23 02:32:30 UTC</createdTime>
-<ownerDesignName>Museum_db</ownerDesignName>
-<engineerTo>
-<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="description" id="0EFD257E-A925-5829-EFF0-FCC64D720A8B">
-<createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 16:23:35 UTC</createdTime>
+<createdTime>2022-03-23 02:08:54 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
@@ -79,27 +53,41 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="published_at" id="6115AB5E-0A58-6B69-26F3-250DC10AF4A5">
+<Attribute name="merch_unit_price" id="A258476A-DCB6-D2C5-3D6F-6575E450CE1D">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 16:23:06 UTC</createdTime>
+<createdTime>2022-03-23 02:10:10 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="38D16092-9152-BD5F-2C71-4688BAD4B9CA">
+<Attribute name="id1" id="B0CEB5D6-814F-8EC7-51B4-4321966ED0CC">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-23 02:29:49 UTC</createdTime>
-<generatorID>1FACAB17-1066-C908-4F26-F45A866FC286</generatorID>
+<createdTime>2022-03-23 02:10:50 UTC</createdTime>
+<generatorID>A0A87C3A-47B6-E99F-CF23-2AAA20406F34</generatorID>
 <ownerDesignName>Museum_db</ownerDesignName>
 <engineerTo>
 <item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
 </engineerTo>
-<referedAttribute>F0E43F7A-8EBF-6AC6-66CE-2E7EBB4E3773</referedAttribute>
+<referedAttribute>57316E29-D7AE-A7A7-1850-0E40C4C9BB84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="27A4994E-5284-A1E9-C03A-830E061A7033">
+<createdBy>Athenda</createdBy>
+<createdTime>2022-03-23 02:20:57 UTC</createdTime>
+<generatorID>67A57245-80C6-7B84-053A-6C4DE591749A</generatorID>
+<ownerDesignName>Museum_db</ownerDesignName>
+<engineerTo>
+<item key="A9B3D952-2D53-1285-D5DC-C824B4E09E8A" value="true"/>
+</engineerTo>
+<referedAttribute>19C5DCFD-DE18-BD0B-C3BD-E66DAA833683</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -107,9 +95,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EF6D10D6-4407-A3D7-E244-5612BDAC0A51" name="Publications PK">
+<identifier id="4A6BAEBB-E531-2ABC-11BC-7D72183F4B83" name="Merchandise PK">
 <createdBy>Athenda</createdBy>
-<createdTime>2022-03-22 15:41:44 UTC</createdTime>
+<createdTime>2022-03-23 02:09:04 UTC</createdTime>
 <ownerDesignName>Museum_db</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -117,7 +105,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7FF4EAA2-7E1C-B8C4-2FE3-C958C2A4C21D</attributeRef>
+<attributeRef>15837DDE-F10B-FEC8-8451-A0C71C3936A7</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
